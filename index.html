@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Skylined</title>
 </head>
@@ -17,8 +18,12 @@
 
         <header>
             <h1>SKYLINED</h1>
-            <nav class="navbar navbar-expand-lg w-100">
-
+            <nav class="navbar navbar-expand-md w-100">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto">
                         <li class="nav-item active">
@@ -84,53 +89,52 @@
                                 <a class="btn btn-primary" href="#" role="button">More</a>
                             </section>
                         </div>
-
-                        <div class="col-12 col-md-6 col-lg-4">
-
-
-                            <div class="article">
-                                <div class="img-article">
-                                    <img src="./images/pics04.jpg" alt="img4">
-                                </div>
-
-                                <h4>Mu volutpat odio</h4>
-                                <p>Aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor
-                                    neque vitae tempus quam pellentesque</p>
-                            </div>
-
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="article">
-                                <div class="img-article">
-                                    <img src="./images/pics06.jpg" alt="img6">
-                                </div>
-                                <h4>Mu volutpat odio</h4>
-                                <p>Aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor
-                                    neque vitae tempus quam pellentesque</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="article">
-                                <div class="img-article">
-                                    <img src="./images/pics05.jpg" alt="img5">
-                                </div>
-                                <div class="text-article">
-                                    <h4>Mu volutpat odio</h4>
-                                    <p>Aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor
-                                        neque vitae tempus quam pellentesque</p>
+                        <div class="row">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="row article">
+                                    <div class="col-12 col-md-6 col-lg-5">
+                                        <img class="ml-4 mt-4 mw-100" src="./images/pics04.jpg" alt="img4">
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-7">
+                                        <h5>Mu volutpat odio</h5>
+                                        <p> Aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor
+                                            neque vitae tempus quam pellentesque</p>
+                                    </div>
                                 </div>
                             </div>
-
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="row article">
+                                    <div class="col-12 col-md-6 col-lg-5">
+                                        <img class="ml-4 mt-4 mw-100" src="./images/pics06.jpg" alt="img6">
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-7">
+                                        <h5>Mu volutpat odio</h5>
+                                        <p> Aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor
+                                            neque vitae tempus quam pellentesque</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <div class="row article">
+                                    <div class="col-12 col-md-6 col-lg-5">
+                                        <img class="ml-4 mt-4 mw-100" src="./images/pics05.jpg" alt="img5">
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-7">
+                                        <h5>Mu volutpat odio</h5>
+                                        <p> Aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor
+                                            neque vitae tempus quam pellentesque</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
                 </div>
                 <div class="col-12">
                     <div class="row">
                         <div class="col-12 col-lg-6">
                             <h2>INTEGER GRAVIDA LIBH QUIS URNA</h2>
-                            <h4>AUGUE PRAESENT A LACUS AT URNA CONGU RUTRUM</h4>
-                            <img src="./images/pics03.jpg" alt="img3">
+                            <h6>AUGUE PRAESENT A LACUS AT URNA CONGU RUTRUM</h6>
+                            <img class="img-fluid" src="./images/pics03.jpg" alt="img3">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <a
                                     href="#">TEMPLATED</a> incididunt
                                 ut labore et dolore magna aliqua. Massa tempor nec feugiat nisl pretium fusce id velit
@@ -171,40 +175,38 @@
                                 </div>
                                 <div class="col-12 col-md-6 col-lg-6">
                                     <h3>SIDEBAR 2</h3>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item"><img src="./images/fleche.png" alt="fleche"><a
-                                                href="#">Cras
+                                    <ul>
+                                        <li><a href="#">Cras
                                                 justo odio</a></li>
-                                        <li class="list-group-item"><img src="./images/fleche.png" alt="fleche"><a
-                                                href="#">Dapibus
+                                        <hr>
+                                        <li><a href="#">Dapibus
                                                 ac facilisis in</a></li>
-                                        <li class="list-group-item"><img src="./images/fleche.png" alt="fleche"><a
-                                                href="#">Morbi
+                                        <hr>
+                                        <li><a href="#">Morbi
                                                 leo risus</a></li>
-                                        <li class="list-group-item"><img src="./images/fleche.png" alt="fleche"><a
-                                                href="#">Porta ac
+                                        <hr>
+                                        <li><a href="#">Porta ac
                                                 consectetur ac</a></li>
-                                        <li class="list-group-item"><img src="./images/fleche.png" alt="fleche"><a
-                                                href="#">Vestibulum at eros</a></li>
+                                        <hr>
+                                        <li><a href="#">Vestibulum at eros</a></li>
                                     </ul>
                                     <h3>NULLA LUCTUS ELEIFEND</h3>
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item"><img src="./images/fleche.png" alt="fleche"><a
-                                                href="#">Cras
+                                    <ul>
+                                        <li><a href="#">Cras
                                                 justo odio</a></li>
-                                        <li class="list-group-item"><img src="./images/fleche.png" alt="fleche"><a
-                                                href="#">Dapibus
+                                        <hr>
+                                        <li><a href="#">Dapibus
                                                 ac facilisis in</a></li>
-                                        <li class="list-group-item"><img src="./images/fleche.png" alt="fleche"><a
-                                                href="#">Morbi
+                                        <hr>
+                                        <li><a href="#">Morbi
                                                 leo risus</a></li>
-                                        <li class="list-group-item"><img src="./images/fleche.png" alt="fleche"><a
-                                                href="#">Porta ac
+                                        <hr>
+                                        <li><a href="#">Porta ac
                                                 consectetur ac</a></li>
-                                        <li class="list-group-item"><img src="./images/fleche.png" alt="fleche"><a
-                                                href="#">Vestibulum at eros</a></li>
-                                        <li class="list-group-item"><img src="./images/fleche.png" alt="fleche"><a
-                                                href="#">Dapibus
+                                        <hr>
+                                        <li><a href="#">Vestibulum at eros</a></li>
+                                        <hr>
+                                        <li><a href="#">Dapibus
                                                 ac facilisis in</a></li>
 
                                 </div>
@@ -212,59 +214,61 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12">
-                    <div class="row">
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <h3>NULLA LUCTUS ELEIFEND</h3>
-                            <blockquote class="blockquote mb-0">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-                                </p>
-                                <footer class="blockquote-footer"><cite title="Source Title">John Smith</cite></footer>
-                            </blockquote>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <h3>NULLA LUCTUS ELEIFEND</h3>
-                            <p>Diam donec adipiscing tristique risus</p>
-                            <p>Aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque
-                                vitae tempus quam pellentesque nec nam aliquam sem</p>
-                            <hr>
-                            <p>Diam donec adipiscing tristique risus</p>
-                            <p>Aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque
-                                vitae tempus quam pellentesque nec nam aliquam sem</p>
-                            <hr>
-                            <p>Diam donec adipiscing tristique risus</p>
-                            <p>Aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque
-                                vitae tempus quam pellentesque nec nam aliquam sem</p>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <h3>NULLA LUCTUS ELEIFEND</h3>
-                            <div class="img-line-1">
-                                <img src="./images/pics07.jpg" alt="img7">
-                                <img src="./images/pics08.jpg" alt="img8">
-                                <img src="./images/pics09.jpg" alt="img9">
-                            </div>
-                            <div class="img-line-2">
-                                <img src="./images/pics10.jpg" alt="img10">
-                                <img src="./images/pics11.jpg" alt="img11">
-                                <img src="./images/pics12.jpg" alt="img12">
-                            </div>
-                            <a class="btn btn-primary" href="#" role="button">More Collections</a>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-3">
-                            <h3>NULLA LUCTUS ELEIFEND</h3>
-                            <p>Diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna</p>
-                            <p>Aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque
-                                vitae tempus quam pellentesque nec nam aliquam sem</p>
-                            <p>Aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque
-                                vitae tempus quam pellentesque nec nam aliquam sem</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
         </main>
-        <footer>Design:<a href="#">TEMPLATED</a> Images: <a href="#">Unsplash</a> (<a href="#">CCO</a>)</footer>
+        <div class="col-12 last-section">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h3>NULLA LUCTUS ELEIFEND</h3>
+                    <blockquote class="blockquote m-1 p-4">
+                        <p>" La vitamine C... mais elle ne dira rien. "
+                        </p>
+                        <footer class="blockquote-footer p-0"><cite title="Source Title">Sam Faimal</cite></footer>
+                    </blockquote>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h3>NULLA LUCTUS ELEIFEND</h3>
+                    <p>Diam donec adipiscing tristique risus</p>
+                    <p>Aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque
+                    </p>
+                    <hr>
+                    <p>Diam donec adipiscing tristique risus</p>
+                    <p>Aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque
+                    </p>
+                    <hr>
+                    <p>Diam donec adipiscing tristique risus</p>
+                    <p>Aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h3>NULLA LUCTUS ELEIFEND</h3>
+                    <div class="img-line-1">
+                        <img class="w-30" src="./images/pics07.jpg" alt="img7">
+                        <img class="w-30" src="./images/pics08.jpg" alt="img8">
+                        <img class="w-30" src="./images/pics09.jpg" alt="img9">
+                    </div>
+                    <div class="img-line-2">
+                        <img class="w-30" src="./images/pics10.jpg" alt="img10">
+                        <img class="w-30" src="./images/pics11.jpg" alt="img11">
+                        <img class="w-30" src="./images/pics12.jpg" alt="img12">
+                    </div>
+                    <a class="btn btn-primary" href="#" role="button">More Collections</a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h3>NULLA LUCTUS ELEIFEND</h3>
+                    <p>Diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna</p>
+                    <p>Aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque
+                        vitae tempus quam pellentesque nec nam aliquam sem</p>
+                    <p>Aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque
+                        vitae tempus quam pellentesque nec nam aliquam sem</p>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="bottom-footer">Design:<a href="#">TEMPLATED</a> Images: <a href="#">Unsplash</a> (<a
+                href="#">CCO</a>)</footer>
     </div>
+
 </body>
 
 </html>
